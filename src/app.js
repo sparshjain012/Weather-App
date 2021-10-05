@@ -23,14 +23,14 @@ app.get('', (req, res) => {
     res.render('index', {
         title: 'Weather',
 
-        name: 'Manali Singh'
+        name: 'Sparsh Jain'
     })
 })
 
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'About Me',
-        name: 'Manali Singh'
+        name: 'Sparsh Jain'
     })
 })
 
@@ -38,7 +38,7 @@ app.get('/help', (req, res) => {
     res.render('help', {
         helpText: 'This is some helpful text.',
         title: 'Help',
-        name: 'Manali Singh'
+        name: 'Sparsh Jain'
     })
 })
 
